@@ -362,7 +362,6 @@ hr.major {
 }
 
 /* Row */
-
 .row {
   display: flex;
   flex-wrap: wrap;
@@ -2075,13 +2074,11 @@ hr.major {
 }
 
 /* Section/Article */
-
 section.special, article.special {
   text-align: center;
 }
 
 /* Form */
-
 form {
   margin: 0 0 2em 0;
 }
@@ -2116,17 +2113,17 @@ form > .fields > .field {
   width: calc(100% - 1.5em);
 }
 
-    form > .fields > .field.half {
-      width: calc(50% - 0.75em);
-    }
+form > .fields > .field.half {
+  width: calc(50% - 0.75em);
+}
 
-    form > .fields > .field.third {
-      width: calc(100%/3 - 0.5em);
-    }
+form > .fields > .field.third {
+  width: calc(100%/3 - 0.5em);
+}
 
-    form > .fields > .field.quarter {
-      width: calc(25% - 0.375em);
-    }
+form > .fields > .field.quarter {
+  width: calc(25% - 0.375em);
+}
 
 @media screen and (max-width: 480px) {
 
@@ -2342,7 +2339,6 @@ input[type="radio"] + label:before {
 }
 
 /* Box */
-
 .box {
   border-radius: 5px;
   border: solid 2px rgba(255, 255, 255, 0.125);
@@ -2363,7 +2359,6 @@ input[type="radio"] + label:before {
 }
 
 /* Icon */
-
 .icon {
   text-decoration: none;
   border-bottom: none;
@@ -2400,7 +2395,6 @@ input[type="radio"] + label:before {
 }
 
 /* Image */
-
 .image {
   border-radius: 5px;
   border: 0;
@@ -2454,7 +2448,6 @@ input[type="radio"] + label:before {
 }
 
 /* List */
-
 ol {
 list-style: decimal;
 margin: 0 0 2em 0;
@@ -2505,7 +2498,6 @@ dl dd {
 }
 
 /* Actions */
-
 ul.actions {
   display: -moz-flex;
   display: -webkit-flex;
@@ -2627,7 +2619,6 @@ ul.actions.fit.stacked {
 }
 
 /* Icons */
-
 ul.icons {
   cursor: default;
   list-style: none;
@@ -2648,7 +2639,6 @@ ul.icons li .icon:before {
 }
 
 /* Contact */
-
 ul.contact {
 list-style: none;
 padding: 0;
@@ -2701,7 +2691,6 @@ ul.contact li:first-child {
 }
 
 /* Pagination */
-
 ul.pagination {
   cursor: default;
   list-style: none;
@@ -2771,7 +2760,6 @@ ul.pagination li:last-child {
 }
 
 /* Table */
-
 .table-wrapper {
   -webkit-overflow-scrolling: touch;
   overflow-x: auto;
@@ -2839,7 +2827,6 @@ table.alt tfoot {
 }
 
 /* Button */
-
 input[type="submit"],
 input[type="reset"],
 input[type="button"],
@@ -2980,7 +2967,6 @@ button:disabled,
 }
 
 /* Features */
-
 .features {
   display: -moz-flex;
   display: -webkit-flex;
@@ -3060,7 +3046,6 @@ button:disabled,
 }
 
 /* Header */
-
 #header {
   -moz-transition: background-color 0.2s ease-in-out;
   -webkit-transition: background-color 0.2s ease-in-out;
@@ -3217,7 +3202,6 @@ button:disabled,
 }
 
 /* Menu */
-
 #page-wrapper {
   -moz-transition: -moz-filter 0.25s ease;
   -webkit-transition: -webkit-filter 0.25s ease;
@@ -3261,23 +3245,23 @@ button:disabled,
 }
 
 #menu .inner {
-    padding: 2.5em 1.5em 0.5em 1.5em ;
-    -moz-transform: translateY(0.5em);
-    -webkit-transform: translateY(0.5em);
-    -ms-transform: translateY(0.5em);
-    transform: translateY(0.5em);
-    -moz-transition: opacity 0.35s ease, -moz-transform 0.35s ease;
-    -webkit-transition: opacity 0.35s ease, -webkit-transform 0.35s ease;
-    -ms-transition: opacity 0.35s ease, -ms-transform 0.35s ease;
-    transition: opacity 0.35s ease, transform 0.35s ease;
-    -webkit-overflow-scrolling: touch;
-    background: #4c5c96;
-    border-radius: 5px;
-    display: block;
-    max-width: 100%;
-    opacity: 0;
-    position: relative;
-    width: 18em;
+  padding: 2.5em 1.5em 0.5em 1.5em ;
+  -moz-transform: translateY(0.5em);
+  -webkit-transform: translateY(0.5em);
+  -ms-transform: translateY(0.5em);
+  transform: translateY(0.5em);
+  -moz-transition: opacity 0.35s ease, -moz-transform 0.35s ease;
+  -webkit-transition: opacity 0.35s ease, -webkit-transform 0.35s ease;
+  -ms-transition: opacity 0.35s ease, -ms-transform 0.35s ease;
+  transition: opacity 0.35s ease, transform 0.35s ease;
+  -webkit-overflow-scrolling: touch;
+  background: #4c5c96;
+  border-radius: 5px;
+  display: block;
+  max-width: 100%;
+  opacity: 0;
+  position: relative;
+  width: 18em;
 }
 
 #menu h2 {
@@ -3366,9 +3350,8 @@ body.is-menu-visible #menu .inner {
 }
 
 /* Banner */
-
 #banner {
-padding: 10em 0 4.75em 0 ;
+  padding: 10em 0 4.75em 0;
 }
 
 #banner .inner {
@@ -3535,7 +3518,6 @@ body.is-preload #banner p {
 }
 
 /* Wrapper */
-
 #wrapper > header {
   padding: 11em 0 2.25em 0 ;
 }
@@ -3788,10 +3770,10 @@ body.is-preload #banner p {
   -ms-flex: 1;
 }
 
-  .wrapper.spotlight .image img {
-    border-radius: 100%;
-    width: 100%;
-  }
+.wrapper.spotlight .image img {
+  border-radius: 100%;
+  width: 100%;
+}
 
 .wrapper.spotlight .content {
   width: 100%;
