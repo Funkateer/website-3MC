@@ -67,9 +67,9 @@ input, select, textarea {
 }
 
 
-/* /////////////////// */
-/* /////  PAGE  ///////*/
-/* /////////////////// */
+/* /////////////////////// */
+/* /////  PAGE DOC  ///////*/
+/* /////////////////////// */
 @-ms-viewport {
   width: device-width;
 }
@@ -2368,6 +2368,7 @@ input[type="radio"] + label:before {
   border-bottom: none;
   position: relative;
 }
+
 
 .icon:before {
   -moz-osx-font-smoothing: grayscale;
