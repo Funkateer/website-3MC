@@ -192,7 +192,7 @@ a.special:not(.button) {
   text-transform: uppercase;
 }
 
-a.special:not(.button):before {
+a.special:not(.button):before  {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   display: inline-block;
