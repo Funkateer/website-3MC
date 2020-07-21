@@ -3436,14 +3436,15 @@ body.is-menu-visible #menu .inner {
 
 #banner .logo .icon {
   border-radius: 100%;
-  border: solid 2px rgba(129, 216, 208, 0.150);
+  border: solid 1px rgba(129, 216, 208, 0.50);
   cursor: default;
   display: inline-block;
   font-size: 2em;
-  height: 2.25em;
   line-height: 2.25em;
   text-align: center;
-  width: 2.25em;
+  width: 100px;
+  height: 100px;
+  padding: 3px;
 }
 
 #banner h2 {
@@ -3515,6 +3516,10 @@ body.is-menu-visible #menu .inner {
     padding: 12em 3em 12.375em 3em ;
     margin-bottom: -4.75em;
   }
+  #banner .logo .icon {
+    width: 90px;
+    height: 90px;
+  }
 
   #banner .inner {
     width: 100%;
@@ -3534,7 +3539,8 @@ body.is-menu-visible #menu .inner {
   }
 
   #banner .logo .icon {
-    font-size: 1.5em;
+    width: 60px;
+    height: 60px;
   }
 
   #banner h2 {
