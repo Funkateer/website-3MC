@@ -3118,6 +3118,14 @@ button:disabled,
   z-index: 10000;
 }
 
+#header img {
+  height: 2.5em;
+  float: left;
+  border-radius: 100%;
+  position: relative;
+  top: .4em
+}
+
 #header h1 {
   -moz-transition: opacity 0.2s ease-in-out, visibility 0.2s;
   -webkit-transition: opacity 0.2s ease-in-out, visibility 0.2s;
@@ -3128,6 +3136,7 @@ button:disabled,
   margin-bottom: 0;
   opacity: 1;
   visibility: visible;
+  margin-left: 4em;
 }
 
 #header h1 a {
@@ -3209,6 +3218,10 @@ button:disabled,
   #header {
     height: 2.75em;
     line-height: 2.75em;
+  }
+
+  #header img {
+    height: 2em;
   }
 
   #header nav {
