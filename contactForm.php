@@ -11,6 +11,6 @@
 
     mail($mailTo, $name, $txt, $headers);
 
-    header("Location:index.html?MessageSent")
+    header("Location:index.html?MessageSent");
   }
 ?>
