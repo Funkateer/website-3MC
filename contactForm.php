@@ -7,7 +7,7 @@
 
     $mailTo = $_POST['3arabmusiciansclub@gmail.com'];
     $headers = "from: ".$mailForm;
-    $txt = "You have a message ".$name".\n\n".$message;
+    $txt = "You have a message".$message;
 
     mail($mailTo, $name, $txt, $headers);
 
