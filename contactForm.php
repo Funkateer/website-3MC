@@ -5,12 +5,11 @@
     $mailForm = $_POST['email'];
     $message = $_POST['message'];
 
-    $mailTo = $_POST['3arabmusiciansclub@gmail.com'];
-    $headers = "from: ".$mailForm;
-    $txt = "You have a message".$message;
+    $mailTo = "3arabmusiciansclub@gmail.com";
+    $headers = "From: ".$mailForm;
+    $txt = "You have a message from ".$name."\n\n".$message;
 
     mail($mailTo, $name, $txt, $headers);
-
-    header("Location:index.html?MessageSent");
+    header("Location:index.html");
   }
 ?>

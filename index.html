@@ -115,7 +115,7 @@
           <h2 class="major">Get in touch</h2>
           <p>If you have any question or want to collaborate just drop me a line</p>
 
-          <form method="post" action="contactForm.php">
+          <form method="POST" action="contactForm.php">
             <div class="fields">
               <div class="field">
                 <label for="name">Name</label>
@@ -127,11 +127,11 @@
               </div>
               <div class="field">
                 <label for="message">Message</label>
-                <textarea name="message" id="message" rows="4" required></textarea>
+                <textarea name="message" id="message" rows="4" maxlength="1000" placeholder="1000 characters left" required></textarea>
               </div>
             </div>
             <ul class="actions">
-              <li><input type="submit" value="Send Message" /></li>
+              <li><input type="submit" name="submit" value="Send Message" /></li>
             </ul>
           </form>
 
