@@ -1,0 +1,11 @@
+# mod_rewrite start here (remove html extension)
+RewriteEngine on
+
+# rules does not apply to existing directories
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Checks for .html files in dir
+RewriteCond %{REQUEST_FILENAME}\.html -f
+
+# Here we show page that has html extension
+RewriteRule ^([.*)$ $1.html [NC, L]
